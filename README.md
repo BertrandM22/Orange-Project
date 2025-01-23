@@ -1,4 +1,4 @@
-        ✨ Projet Hackathon Orange : Application d'Entraide Locale ✨
+                                ✨ Projet Hackathon Orange : Application d'Entraide Locale ✨
 
  ![preview](assets/preview.png)
 
