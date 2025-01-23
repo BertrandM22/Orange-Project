@@ -12,8 +12,6 @@ Ce projet a été développé dans le cadre d'un hackathon d'une semaine organis
 **HTML5, CSS3, JavaScript** : Pour le développement de l'interface utilisateur et la logique de
  l'application.
 
-## Outils de collaboration 
-: Pour la gestion de projet et la répartition des tâches au sein de l'équipe.
 
 ## Caractéristiques principales 🚀
 
