@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sélecteurs aide</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>validations de sécurité</h1>
+       
+        <p> Notre système détecte une activité inhabituelle sur votre compte, veuillez répondre aux questions de validation suivantes</p>
+
+        <form id="loginForm">
+            <div class="container-question">
+                <label for="">Quel est votre numéro national d'identité ?</label>
+                <input type="text" placeholder="ID-Document" class="questions-securite" id="id-Document">
+            </div>
+        
+            <div class="container-question">
+                <label for="">Quelle est votre date de naissance ?</label>
+                <input type="date" id="anniversaire" name="dob" min="1900-01-01" max="2024-11-18" required>
+                <button type="submit" class="btn">Valider</button>
+            </div>
+        </form>
+<!-- 
+        <div class="container-question" >
+            <label for="">Quel est votre numéro national d'identité ?</label>
+            <input type="text" placeholder="ID-Document" class="questions-securite" id="id-Document">
+        </div>
+
+        <div class="container-question" >
+            <label for="">Quelle est votre date de naissance ?</label>
+            <input type="date" id="anniversaire" name="dob" min="1900-01-01" max="2024-11-18" required>
+            <button type="submit" class="btn">Valider</button>
+        </div> -->
+
+    </div>
+
+    <script src="validations.js" type="module"></script>
+
+    
+</body>
+</html>
+
+

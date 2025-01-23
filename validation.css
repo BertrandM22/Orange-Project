@@ -1,0 +1,88 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: #F9F9F9;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titre principal */
+.container h1 {
+    font-size: 24px;
+    color:#000;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+/* Description */
+.container p {
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 50px;
+}
+
+/* Groupe de checkboxes */
+.checkbox-group {
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+/* Style des checkbox */
+input {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 30px;
+   
+}
+
+input::placeholder {
+    text-align: center;
+    
+
+}
+
+/* Bouton de validation */
+.btn {
+    background-color: #F16E00;;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+

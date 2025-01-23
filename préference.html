@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sélecteurs aide</title>
+    <link rel="stylesheet" href="préferences.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PREFERENCES</h1>
+        <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+                <p>Vos préférences ont été enregistrées avec succès ! <br> <br>Vous aller être rediriger vers l'acceuil !</p>
+            </div>
+        </div>
+        <p> Quels services pouvez-vous rendre ?</p>
+        <form id="préferences">
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="services" value="partage_nourriture"> Partage de nourriture
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="travail_manuel"> Travail manuel
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="hebergement"> Hébergement
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="covoiturage"> Covoiturage
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="cours_particuliers"> Cours particuliers
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="aide_administrative"> Aide administrative
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="soutien_psychologique"> Soutien psychologique
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="gardiennage_animaux"> Gardiennage d'animaux
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="collecte_dechets"> Collecte de déchets
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="jardinage"> Jardinage
+                </label>
+            </div>
+
+            <button type="submit" class="btn" id="submit-button">Valider</button>
+        </form>
+        <div class="home">
+        <button class="btn" onclick="window.location.href='main.html'"> Home </button>
+    </div>
+    </div>
+
+
+    <script src="preferences.js"></script>
+</body>
+</html>

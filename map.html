@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map de localisation</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MAP</h1>
+        <p>Localisation de l'utilisateur</p>
+        <div id="map"></div>
+        <div class="home">
+            <button class="btn" onclick="window.location.href='main.html'"> Home </button>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWeUegqvK11Qs9lVKHPef0OtoBp-2AeOc&callback=initMap&v=weekly&libraries=marker" async defer></script>
+    <script type="module" src="map.js"></script>
+</body>
+</html>
+
+

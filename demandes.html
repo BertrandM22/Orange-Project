@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demandes services</title>
+    <link rel="stylesheet" href="demandes.Css">
+</head>
+<body>
+    <div class="container">
+        <h1>Demandes</h1>
+        <p> Quels services avez-vous besoin ?</p>
+
+        <form id="préferences">
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="services" value="partage_nourriture"> Partage de nourriture
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="travail_manuel"> Travail manuel
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="hebergement"> Hébergement
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="covoiturage"> Covoiturage
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="cours_particuliers"> Cours particuliers
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="aide_administrative"> Aide administrative
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="soutien_psychologique"> Soutien psychologique
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="gardiennage_animaux"> Gardiennage d'animaux
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="collecte_dechets"> Collecte de déchets
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="jardinage"> Jardinage
+                </label>
+        
+                <textarea  name="services" id="services" rows="5" cols="30" placeholder=" j'aurais besoin d'une personne pour "></textarea>
+            </div>
+
+            <button type="submit" class="btn" id="submit-button">Valider</button>
+        </form>
+        <div class="home">
+            <button class="btn" onclick="window.location.href='main.html'"> Home </button>
+        </div>
+
+
+    <!---- validation des demandes -->
+    <div id="successModal" class="modalValidation">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <p>Votre demande a été envoyée !<br> Quelqu'un va prendre contact<br> avec vous.</p>
+        </div>
+      </div>
+    
+  <script src="demandes.js"></script>
+</body>
+
+</html>

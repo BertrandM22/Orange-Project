@@ -1,0 +1,136 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img {
+    max-width:80%;
+    display: block;
+    margin: auto;
+}
+body {
+    background-color: #F9F9F9;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width:100vw
+}
+
+
+
+.container {
+    background-color: #F9F9F9;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 24px;
+    color:#000;
+    margin-bottom: 50px;
+}
+
+.container p {
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 50px;
+}
+
+.checkbox-group {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+textarea {
+    border: 1px solid #F16E00;
+    margin-top: 20px;
+    max-width: 250px;
+
+}
+#services {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #F16E00;;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.home button {
+    margin-top: 20px;
+}
+
+
+
+/* validations du formulaire */
+.modalValidation {
+display: none;        
+position: fixed;
+z-index: 1000;
+left: 40px;
+top: 25%;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+text-shadow: 5px 4px 10px rgba(12, 0, 0, 0.942);
+}
+
+.modal-content {
+
+font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;
+position: relative; 
+width: 90%; 
+max-width: 300px; 
+color: white;
+background-color: #F16E00;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+box-shadow: 5px 4px 10px rgba(12, 0, 0, 0.942);
+}
+.modal-content p {
+    color: #F9F9F9;
+}
+
+
+
+.close-btn {
+position: absolute; 
+top: 10px;
+right: 10px;
+background: none;
+border: none;
+font-size: 20px;
+font-weight: bold;
+color: #ffffff;;
+cursor: pointer;
+}
