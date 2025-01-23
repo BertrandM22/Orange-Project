@@ -30,7 +30,7 @@ Les tâches ont été réparties de manière équilibrée, mais chacun a eu l'oc
 Cette expérience m'a plongé dans un environnement de travail réaliste, où le respect des deadlines et la collaboration étroite entre les membres de l'équipe étaient essentiels pour mener à bien le projet.
 
 📑 Création d'un Canvas explicatif :
-Nous avons créé une présentation Canvas pour expliquer l'idée, le fonctionnement, et les détails techniques de l'application. Voici le lien vers notre canvas :[Ici](https://www.canva.com/design/DAGXA20tEyc/Ve0QFC0k62XC3ExfyskoEg/edit)
+Nous avons créé une présentation Canvas pour expliquer l'idée, le fonctionnement, et les détails techniques de l'application. Voici le lien vers notre canvas : [Ici](https://www.canva.com/design/DAGXA20tEyc/Ve0QFC0k62XC3ExfyskoEg/edit)
 
 
 🔄 Remarque importante :
