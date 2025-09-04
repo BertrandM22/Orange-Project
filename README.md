@@ -34,7 +34,7 @@ Nous avons créé une présentation Canvas pour expliquer l'idée, le fonctionne
  Remarque importante :
 Il est inutile de tester cette application sur un ordinateur, car les API en bêta-test utilisées ne seront probablement plus d'actualité au moment de la lecture de cette description. Par conséquent, certaines fonctionnalités pourraient ne plus fonctionner correctement.
 
-## 🛠 Processus de développement
+##  Processus de développement
 
 **Idéation** : Brainstorming, débat, et sélection de l'idée finale.
 
